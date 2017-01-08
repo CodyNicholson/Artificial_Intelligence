@@ -1,0 +1,2 @@
+# Machine Learning Recipes
+Small projects I've coded in Python using the various machine learning libraries including Tensorflow and Sklearn. I learned how to do this by watching the Machine Learning playlist on Youtube by Josh Gordon of Google Developers
