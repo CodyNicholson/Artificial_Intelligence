@@ -98,13 +98,13 @@ Fully Vs Partially Obervable
 
 - In a fully observable environment, an agent's sensors give it access to the complete state of the environment at all times
 
-Deterministic Vs Stochastic
+Deterministic Vs Stochastic/Random
 
 - In a deterministic environment the next state is completely determined by the current state and the action executed by the agent
 
 Episodic Vs Sequential
 
-- In an episodic environment the agent's experience is divided into atomic "apisodes". Each episode consists of the agent perciving and then performing a single action, and the choice of action in each episode depends only on the episode itself
+- In an episodic environment the agent's experience is divided into atomic "episodes". Each episode consists of the agent perciving and then performing a single action, and the choice of action in each episode depends only on the episode itself.
 
 Static Vs Dynamic
 
@@ -115,6 +115,8 @@ Discrete Vs Continuous
 - A discrete environment can be divided into clearly defined percepts and actions
 
 Single Vs Multi-agent
+
+- Single Agents is like solving a crossword puzzle, multi-agent is like self-driving car
 
 -
 
