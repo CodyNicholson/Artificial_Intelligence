@@ -72,7 +72,7 @@ $$
 
 This is a really useful feature, so if you don't have experience with [LaTeX please read this primer](http://data-blog.udacity.com/posts/2016/10/latex-primer/) on using it to create math expressions.
 
-<a href="https://s3.amazonaws.com/content.udacity-data.com/courses/ud1111/Markdown+cells.mp4" target="_blank"><img src="http://img.youtube.com/vi/6A5EpqqDOdk/0.jpg" alt="A link to the Markdown Tutorial Video" width="240" height="180" border="10" /></a>
+<a href="https://s3.amazonaws.com/content.udacity-data.com/courses/ud1111/Markdown+cells.mp4" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-512.png" width="240" height="180" border="10" /></a>
 
 ***
 
