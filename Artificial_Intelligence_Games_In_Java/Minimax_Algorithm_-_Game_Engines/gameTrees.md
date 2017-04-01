@@ -1,4 +1,4 @@
-#Game Trees
+# Game Trees
 
 A **Game Tree* is a directed graph whose nodes are positions in the game
 
