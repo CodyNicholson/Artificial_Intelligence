@@ -1,4 +1,4 @@
-#Minimax Algorithms
+# Minimax Algorithms
 
 **Minimax** is a decision rule in decision theory and game theory used for minimizing the possible loss for a maximum loss scenario
 
@@ -32,7 +32,7 @@ This function predicts whether that situation is a +1 win situation, 0 neutral s
 
 ***
 
-##The Algorithm Behavior
+## The Algorithm Behavior
 
 The root of our game tree is the current state of the game - if it is our move then our goal is to maxmize our chances of winning
 
