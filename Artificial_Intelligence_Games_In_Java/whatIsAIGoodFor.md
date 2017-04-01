@@ -1,4 +1,4 @@
-#What Is AI Good For?
+# What Is AI Good For?
 
 - There are the heavy artificial intelligence related methods such as machine learning or neural networks
 
@@ -10,13 +10,13 @@
 
 - Heuristics
 
-- Meta-heuristics like genetics algorithms, partical swarm optimization method and simulated annealing
+- Meta-heuristics like genetics algorithms, particle swarm optimization method and simulated annealing
 
-######Heuristics- enabling a person to discover or learn something for themselves
+###### Heuristics- enabling a person to discover or learn something for themselves
 
 ***
 
-##Robotics
+## Robotics
 
 - You want to move robots to explore Mars, for example
 
@@ -26,7 +26,7 @@
 
 -
 
-##Optimizations
+## Optimizations
 
 - If you want to make some complex optimizations or want to find some optimal state, for example: To reduce noise in electric devices
 
@@ -40,7 +40,7 @@
 
 -
 
-##Chess
+## Chess
 
 - AI is useful for creating perfect players for tic-tac-toe, go, or chess
 
@@ -50,7 +50,7 @@
 
 -
 
-##Neural Networks
+## Neural Networks
 
 - Mimic the human brain itself
 

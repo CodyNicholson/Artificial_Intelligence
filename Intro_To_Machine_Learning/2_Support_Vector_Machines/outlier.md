@@ -1,4 +1,4 @@
-#Outlier
+# Outliers
 
 Let's say you have a scatterplot with two distinct clusters of data
 

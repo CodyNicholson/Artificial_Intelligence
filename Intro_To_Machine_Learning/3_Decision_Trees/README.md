@@ -1,4 +1,4 @@
-#Decision Trees
+# Decision Trees
 
 Decision Trees are really easy to use, they graphically allow you to interpret the data really well, you can understand their results much better than the results of a Support Vector Machine (for example). You can build bigger classifiers out of decision trees in something called ensemble methods. 
 

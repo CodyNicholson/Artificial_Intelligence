@@ -1,4 +1,4 @@
-#Importing Datasets
+# Importing Datasets
 
 To import datasets in python you need to set your working directory by simply making sure that your python file is in the same directory as your data file
 
@@ -27,7 +27,7 @@ We then use .iloc to get every row or our dataset but only the data at column wi
 
 ***
 
-###In R this is much easier
+### In R this is much easier
 
 ```r
 #Importing the dataset

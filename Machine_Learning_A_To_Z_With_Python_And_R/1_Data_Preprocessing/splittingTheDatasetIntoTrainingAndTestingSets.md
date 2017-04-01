@@ -1,6 +1,6 @@
-#Splitting The Dataset Into The Training And Testing Sets
+# Splitting The Dataset Into The Training And Testing Sets
 
-###Training Vs Test Sets
+### Training Vs Test Sets
 
 The training set is the set of our data that includes both the independent and dependent variables. It is used to "train" or "teach" our program how to label the dependent variable on its own by measuring the relationship between the independent and dependent variables given in our testing set.
 
@@ -8,7 +8,7 @@ The testing set is the set of data the includes only the independent variables. 
 
 ***
 
-###Splitting Dataset In Python
+### Splitting Dataset In Python
 
 ```python
 #Import libs
@@ -49,7 +49,7 @@ After running this code the arrays inpen_test and depen_test will contain depend
 
 ***
 
-###Splitting Dataset In R
+### Splitting Dataset In R
 
 ```r
 #Data Preprocessing

@@ -1,4 +1,4 @@
-#Installing Jupyter Notebook
+# Installing Jupyter Notebook
 
 By far the easiest way to install Jupyter is with Anaconda. Jupyter notebooks automatically come with the distribution. You'll be able to use notebooks from the default environment.
 

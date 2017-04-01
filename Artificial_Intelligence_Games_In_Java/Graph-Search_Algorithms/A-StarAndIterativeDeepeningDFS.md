@@ -1,6 +1,6 @@
-#Iterative Deepening Depth-First Search
+# Iterative Deepening Depth-First Search
 
-Very important in artifical intelligence and robotics
+Very important in artificial intelligence and robotics
 
 -
 
@@ -34,17 +34,17 @@ The disadvantage is that we keep recomputing the same problem over and over agai
 
 ***
 
-##A* Search
+## A* Search
 
-Important in AI because it is used in pathfinding and graph traversal
+Important in AI because it is used in path-finding and graph traversal
 
-Thus, it can solve pathfinding problems in games
+Thus, it can solve path-finding problems in games
 
 However, in practical travel-routing systems, it is generally outperformed by algorithms which can pre-process the graph to attain better performance (Dijkstra or BFS)
 
 It is similar to Dijkstra: A* achieves better time performance by using heuristics
 
-It uses a knowledge-puls-heurstic cose function of node x (usually denoted f(x)) to determine the order in which the search visits nodes in the tree. The cost function is a sum of the two functions:
+It uses a knowledge-plus-heuristic cos function of node x (usually denoted f(x)) to determine the order in which the search visits nodes in the tree. The cost function is a sum of the two functions:
 
 - g(x) the known distance from the starting node to the current node x
 

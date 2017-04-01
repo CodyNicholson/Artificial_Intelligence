@@ -1,6 +1,6 @@
-#Naive Bayes
+# Naive Bayes
 
-###Sklearn Interpreted
+### Sklearn Interpreted
 
 ```python
 import numpy as np
@@ -14,13 +14,13 @@ print clf.predict([[-0.8, -1]]) # Now that the classifier is trained it can be u
 
 ***
 
-###Bayes Rule
+### Bayes Rule
 
 Prior = P(C)
 Sensitivity = P(Pos|C)
 Specitivity = P(Neg|7C)
 
-When you recieve a positive test result - you take your Prior and you multiply in the probability of this test result given C (P(Pos|C)) and given not C (P(Pos|7C))
+When you receive a positive test result - you take your Prior and you multiply in the probability of this test result given C (P(Pos|C)) and given not C (P(Pos|7C))
 
 This provides you with the probabilities of your test being true or false
 
@@ -56,7 +56,7 @@ Sara: .5 (love) x .3 (life) x .5 (prior) = 0.075
 
 Since Sara has a higher value, it was most likely an email from Sara
 
-Now in order to calculate the **Posterior Probabilities** we divide each of our probabilties (0.05 and 0.075) by our total probability (0.05 + 0.075 = 0.125)
+Now in order to calculate the **Posterior Probabilities** we divide each of our probabilities (0.05 and 0.075) by our total probability (0.05 + 0.075 = 0.125)
 
 Chris: 0.05/0.125 = 0.4 or 40%
 
@@ -64,13 +64,13 @@ Sara: 0.075/0.125 = 0.6 or 60%
 
 ***
 
-###Naive Bayes Strengths
+### Naive Bayes Strengths
 
 - It is easy to implement and efficient to run
 
 ***
 
-###Naive Bayes Weaknesses
+### Naive Bayes Weaknesses
 
 - Naive Bayes is called Naive because, while it does a great job, it does not take into account the order of the words which is an important factor in the equation - but it is good enough
 

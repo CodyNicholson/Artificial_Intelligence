@@ -1,8 +1,8 @@
-#Brute-Force Search
+# Brute-Force Search
 
 In a Brute-Force Search we iterate through the given interval and do a brute-force maximum/minimum find
 
-Brute-force search is a linear search-meaning we have to consider all of the items n (Unlike bianary search where we only consider log(n))
+Brute-force search is a linear search-meaning we have to consider all of the items n (Unlike binary search where we only consider log(n))
 
 We systematically enumerate all possible candidates for the solution
 
@@ -12,7 +12,7 @@ It is slow because the number of candidates is extremely large
 
 ***
 
-###Pseudo Code:
+### Pseudo Code:
 
 ```
 solution equals first value

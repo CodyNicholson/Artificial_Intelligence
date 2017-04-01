@@ -1,8 +1,8 @@
-#Swarm Intelligence - Artifical Intelligence
+# Swarm Intelligence - Artificial Intelligence
 
 **Swarm Intelligence** is a collective behavior of self-organized systems
 
-Independant entities following very simple rules can produce something quite complex
+Independent entities following very simple rules can produce something quite complex
 
 Swarm intelligence systems consist of a population of **agents**
 
@@ -12,7 +12,7 @@ The intuition comes from biological systems, like a colony of ants
 
 ***
 
-##Particle Swarm Optimization
+## Particle Swarm Optimization
 
 The goal is to make an optimization algorithm that will find the global optimum for a function
 
@@ -34,13 +34,13 @@ It is one of the swarm intelligence algorithms (ant colony optimization is anoth
 
 -
 
-###Algorithm
+### Algorithm
 
-We create artifical particles and move them around in the search-space according to simple mathematical formulas over the particle's position and velocity
+We create artificial particles and move them around in the search-space according to simple mathematical formulas over the particle's position and velocity
 
 Each particle's movement is influenced by its local best known position
 
-Each particle is guided toward the best known positions in the search-space, whcih are updated as better positions are found by other particles
+Each particle is guided toward the best known positions in the search-space, which are updated as better positions are found by other particles
 
 This is expected to move the swarm toward the best solutions
 

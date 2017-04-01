@@ -1,6 +1,6 @@
-#Stochastic Search
+# Stochastic Search
 
-Stochastic Search gives a good guess at the correct answer and will get close, but is not gaurenteed to find the best answer
+Stochastic Search gives a good guess at the correct answer and will get close, but is not garmented to find the best answer
 
 It is faster than Brute-Force but less accurate
 

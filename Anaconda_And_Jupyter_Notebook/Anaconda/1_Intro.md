@@ -1,4 +1,4 @@
-#Intro
+# Intro
 
 Often you will be working with projects that require different dependencies/library versions, or even different versions of python
 
@@ -8,7 +8,7 @@ To solve this problem we use vitual environments to manage libraries, such as Vi
 
 ***
 
-###Using Anaconda
+### Using Anaconda
 
 Whenever you start a new project you should create a new anaconda environment using this command:
 
@@ -42,7 +42,7 @@ conda list
 
 ***
 
-###Anaconda Intro
+### Anaconda Intro
 
 Welcome to this lesson on using Anaconda to manage packages and environments for use with Python. With Anaconda, it's simple to install the packages you'll often use in data science work. You'll also use it to create virtual environments that make working on multiple projects much less mind-twisting. Anaconda has simplified my workflow and solved a lot of issues I had dealing with packages and multiple Python versions.
 
@@ -54,7 +54,7 @@ You probably already have Python installed and wonder why you need this at all. 
 
 -
 
-###Managing Packages
+### Managing Packages
 
 Package managers are used to install libraries and other software on your computer. You’re probably already familiar with pip, it’s the default package manager for Python libraries. Conda is similar to pip except that the available packages are focused around data science while pip is for general use. However, conda is not Python specific like pip is, it can also install non-Python packages. It is a package manager for any software stack. That being said, not all Python libraries are available from the Anaconda distribution and conda. You can (and will) still use pip alongside conda to install packages.
 
@@ -62,7 +62,7 @@ Conda installs precompiled packages. For example, the Anaconda distribution come
 
 -
 
-###Environments
+### Environments
 
 Along with managing packages, Conda is also a virtual environment manager. It's similar to virtualenv and pyenv, other popular environment managers.
 
@@ -74,7 +74,7 @@ You can also export the list of packages in an environment to a file, then inclu
 
 ***
 
-###Making Sure Your Anaconda Is Updated
+### Making Sure Your Anaconda Is Updated
 
 To get the latest updates in Anaconda run these commands:
 

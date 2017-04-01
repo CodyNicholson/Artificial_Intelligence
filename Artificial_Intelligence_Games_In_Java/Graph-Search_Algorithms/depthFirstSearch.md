@@ -1,4 +1,4 @@
-#Depth-First Search (DFS)
+# Depth-First Search (DFS)
 
 DFS is a widely used graph traversal algorithm like BFS
 
@@ -10,7 +10,7 @@ The memory complexity is a bit better than that of BFS
 
 ***
 
-###DFS Pseudo Code - Recursive
+### DFS Pseudo Code - Recursive
 
 ```
 dfs(vertex)
@@ -25,7 +25,7 @@ dfs(vertex)
 
 -
 
-###DFS Pseudo Code - Iterative
+### DFS Pseudo Code - Iterative
 
 ```
 dfs(vertex)
@@ -45,7 +45,7 @@ dfs(vertex)
 
 ***
 
-##Applications of DFS
+## Applications of DFS
 
 Topological ordering
 

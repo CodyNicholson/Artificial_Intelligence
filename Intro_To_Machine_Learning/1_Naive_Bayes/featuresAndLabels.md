@@ -1,4 +1,4 @@
-#Features And Labels
+# Features And Labels
 
 Instead of giving our program raw data, like the video feed of the self-driving car's camera or the picture of the person you want your program to recognize or the raw music that you usually like to listen to, we extract **features** from the raw data and feed those features to our program
 
@@ -24,10 +24,10 @@ The two features that would be the best to pay attention to in this case are the
 
 ***
 
-###Decision Surface
+### Decision Surface
 
 Imagine you have a scatterplot where all the data on the left is labeled one thing, and all the data on the right was labeled another thing
 
-The computer should be able to create something called a **Decision Surface** that divides the data in half (assuming this is possible) so that the computer knows when it gets a new input it can classifiy it based on which side of the decision surface it is on
+The computer should be able to create something called a **Decision Surface** that divides the data in half (assuming this is possible) so that the computer knows when it gets a new input it can classify it based on which side of the decision surface it is on
 
 If the Decision Surface is a line, it is called a Linear Decision Surface

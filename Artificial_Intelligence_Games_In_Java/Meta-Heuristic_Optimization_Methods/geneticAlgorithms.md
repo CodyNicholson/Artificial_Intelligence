@@ -1,4 +1,4 @@
-#Genetic Algorithms
+# Genetic Algorithms
 
 **Genetic Algorithms (GA)** are search heuristics that mimic the process of natural selection
 
@@ -8,13 +8,13 @@ Generate solutions to optimization problems using techniques inspired by natural
 
 A candidate solution is evolved toward better and better solutions
 
-Each condidate solution has a set of properties (genes) which can be mutated and altered
+Each candidate solution has a set of properties (genes) which can be mutated and altered
 
-(Ususally solutions are represented in binary)
+(Usually solutions are represented in binary)
 
 ***
 
-###Algorithm Basics
+### Algorithm Basics
 
 The evolution usually starts from a population of randomly generated individuals
 
@@ -34,7 +34,7 @@ Commonly, the algorithm terminates when either a maximum number of generations h
 
 ***
 
-##Genetic Algorithms - Chromosomes
+## Genetic Algorithms - Chromosomes
 
 In order to use genetic algorithms we first have to encode any potential solution into "chromosomes"
 
@@ -50,7 +50,7 @@ Our program will return doubles, but we can easily convert those doubles into bi
 
 ***
 
-##Genetic Algorithms - Crossover
+## Genetic Algorithms - Crossover
 
 The **crossover** is the method by which we mutate our chromosomes
 
@@ -78,7 +78,7 @@ If our crossover threshold is high we will make lots of changes with higher prob
 
 ***
 
-##Genetic Algorithms - Mutation
+## Genetic Algorithms - Mutation
 
 **Mutation** does exactly the same operation as Crossover, but with only one chromosome
 
@@ -96,9 +96,9 @@ Crossover is a more frequent operation than mutation, mutation only affects few 
 
 ***
 
-##Algorithm
+## Algorithm
 
-1. We have to encode the possible solutions as strings of bits, Bassically we have to construct the chromosomes for the problem
+1. We have to encode the possible solutions as strings of bits, Basically we have to construct the chromosomes for the problem
 
 2. We have to define a fitness function, Better solutions have a higher fitness value
 
@@ -112,7 +112,7 @@ Crossover is a more frequent operation than mutation, mutation only affects few 
 
 -
 
-###Advantages
+### Advantages
 
 Applying GA to a new problem is very simple: we just have to define a new fitness function best suited to the new problem
 

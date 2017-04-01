@@ -1,4 +1,4 @@
-#Markdown cells
+# Markdown cells
 
 As mentioned before, cells can also be used for text written in Markdown. Markdown is a formatting syntax that allows you to include links, style text as bold or italicized, and format code. As with code cells, you press **Shift + Enter** or **Control + Enter** to run the Markdown cell, where it will render the Markdown to formatted text. Including text allows you to write a narrative along side your code, as well as documenting your code and the thoughts that went into it.
 
@@ -6,7 +6,7 @@ You can find the [documentation here](https://daringfireball.net/projects/markdo
 
 ***
 
-###Headers
+### Headers
 
 You can write headers using the pound/hash/octothorpe symbol # placed before the text. One # renders as an h1 header, two #s is an h2, and so on. Looks like this:
 
@@ -18,19 +18,19 @@ You can write headers using the pound/hash/octothorpe symbol # placed before the
 
 renders as
 
-#Header 1
-##Header 2
-###Header 3
+# Header 1
+## Header 2
+### Header 3
 
 ***
 
-###Links
+### Links
 
 Linking in Markdown is done by enclosing text in square brackets and the URL in parentheses, like this [Udacity's home page](https://www.udacity.com) for a link to Udacity's home page.
 
 ***
 
-###Emphasis
+### Emphasis
 
 You can add emphasis through bold or italics with asterisks or underscores (* or _). For italics, wrap the text in one asterisk or underscore, _gelato_ or *gelato* renders as gelato.
 
@@ -40,7 +40,7 @@ Either asterisks or underscores are fine as long as you use the same symbol on b
 
 ***
 
-###Code
+### Code
 
 There are two different ways to display code, inline with text and as a code block separated from the text. To format inline code, wrap the text in backticks. For example, `string.punctuation` renders as string.punctuation.
 
@@ -60,7 +60,7 @@ response = requests.get('https://www.udacity.com')
 
 ***
 
-###Math expressions
+### Math expressions
 
 You can create math expressions in Markdown cells using LaTeX symbols. Notebooks use MathJax to render the LaTeX symbols as math symbols. To start math mode, wrap the [LaTeX](https://www.latex-project.org/) in dollar signs **$y = mx + b$** for inline math. For a math block, use double dollar signs,
 
@@ -76,6 +76,6 @@ This is a really useful feature, so if you don't have experience with [LaTeX ple
 
 ***
 
-###Wrapping up
+### Wrapping up
 
 Here's a cheatsheet you can use as a reference for writing Markdown. My advice is to make use of the Markdown cells. Your notebooks will be much more readable compared to a bunch of code blocks.

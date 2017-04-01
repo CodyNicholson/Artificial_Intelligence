@@ -1,4 +1,4 @@
-#Notebook interface
+# Notebook interface
 
 When you create a new notebook, you should see something like this:
 
@@ -14,7 +14,7 @@ When you run a code cell, the output is displayed below the cell. The cell also 
 
 ***
 
-###The tool bar
+### The tool bar
 
 Elsewhere on the tool bar, starting from the left:
 
@@ -28,7 +28,7 @@ Elsewhere on the tool bar, starting from the left:
 
 ***
 
-###Command palette
+### Command palette
 
 The little keyboard is the command palette. This will bring up a panel with a search bar where you can search for various commands. This is really helpful for speeding up your workflow as you don't need to search around in the menus with your mouse. Just open the command palette and type in what you want to do. For instance, if you want to merge two cells:
 
@@ -36,7 +36,7 @@ The little keyboard is the command palette. This will bring up a panel with a se
 
 ***
 
-###More things
+### More things
 
 At the top you see the title. Click on this to rename the notebook.
 

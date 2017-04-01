@@ -1,4 +1,4 @@
-#Hill Climbing Algorithm
+# Hill Climbing Algorithm
 
 The algorithm starts at a given **x** position
 

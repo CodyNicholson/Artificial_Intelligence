@@ -1,4 +1,4 @@
-#Min_Samples_Split
+# Min_Samples_Split
 
 The **min_samples_split** is an parameter you can set in your DecisionTreeClassifier that tells the algorithm when to stop splitting data in your decision tree - the default value is 2
 

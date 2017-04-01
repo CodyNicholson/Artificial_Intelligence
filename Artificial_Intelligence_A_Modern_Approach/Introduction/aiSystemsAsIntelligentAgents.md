@@ -1,14 +1,14 @@
-#AI Systems As Intelligent Agents
+# AI Systems As Intelligent Agents
 
 An **agent** is something that can:
 
-- percieve its "environment" through sensors (percepts)
+- perceive its "environment" through sensors (percepts)
 
 - Act upon that environment through actuators (or effectors)
 
 An agent is defined by its agent function
 
-- A percept sequence is the complete history of everything the agent has ever percieved
+- A percept sequence is the complete history of everything the agent has ever perceived
 
 - The agent function maps all possible percept sequences onto actions
 
@@ -16,7 +16,7 @@ We implement an agent by writing an agent program
 
 ***
 
-###Example Agent: A Vacuum Robot
+### Example Agent: A Vacuum Robot
 
 Percepts: 2-tuple [square, state]
 
@@ -40,7 +40,7 @@ Percept sequence, Action
 
 -
 
-###What Makes An Agent Intelligent?
+### What Makes An Agent Intelligent?
 
 We need to define a performance measure for the agent
 
@@ -48,7 +48,7 @@ At any given time, an intelligent agent selects an action which, given its perce
 
 -
 
-###A Performance Measure For The Vacuum
+### A Performance Measure For The Vacuum
 
 Assume:
 
@@ -62,25 +62,25 @@ Assume:
 
 - 3 possible actions that the agent can perform
 
-- The agent correctly percieves its location and whether that location contains dirt
+- The agent correctly perceives its location and whether that location contains dirt
 
 Under these conditions, the agent function shown in the above table is intelligent/rational
 
 ***
 
-##PEAS Analysis
+## PEAS Analysis
 
 **P**erformance Measure, **E**nvironment, **A**ctuators, **S**ensors
 
 - Designing an intelligent agent involves specifying each of these
 
-- Obviously, the performance measure depends on sensors and actators
+- Obviously, the performance measure depends on sensors and actuators
 
 - Actuators determine the effects that the agent has on the environment
 
 -
 
-####Examples:
+#### Examples:
 
 - Automated taxi driver
 
@@ -92,9 +92,9 @@ Under these conditions, the agent function shown in the above table is intellige
 
 ***
 
-###Types Of Environments
+### Types Of Environments
 
-Fully Vs Partially Obervable
+Fully Vs Partially Observable
 
 - In a fully observable environment, an agent's sensors give it access to the complete state of the environment at all times
 
@@ -104,7 +104,7 @@ Deterministic Vs Stochastic/Random
 
 Episodic Vs Sequential
 
-- In an episodic environment the agent's experience is divided into atomic "episodes". Each episode consists of the agent perciving and then performing a single action, and the choice of action in each episode depends only on the episode itself.
+- In an episodic environment the agent's experience is divided into atomic "episodes". Each episode consists of the agent perceiving and then performing a single action, and the choice of action in each episode depends only on the episode itself.
 
 Static Vs Dynamic
 
@@ -120,7 +120,7 @@ Single Vs Multi-agent
 
 -
 
-####Types Of Environments:
+#### Types Of Environments:
 
 |               | Solitaire | Backgammon | Internet Shopping | Taxi |
 |:------------- |:--------- |:---------- |:----------------- |:---- |
@@ -133,11 +133,11 @@ Single Vs Multi-agent
 
 ***
 
-###Agent Types
+### Agent Types
 
 **Simple Reflex Agents**
 
-- The action to be selented only depends on the most recent percept, not a percept sequence
+- The action to be selected only depends on the most recent percept, not a percept sequence
 
 - As a result, these agents are stateless devices which do not have memory of past world states
 
@@ -161,7 +161,7 @@ Single Vs Multi-agent
 
 **Utility-Based Agents**
 
-- An agent's utility function is an internalization of the performance measure (shich is external)
+- An agent's utility function is an internalization of the performance measure (which is external)
 
 - Performance and utility may differ if the environment is not completely observable or deterministic
 
@@ -193,4 +193,4 @@ To do this efficiently, agents must have the ability to reason with their knowle
 
 - Which path to follow (which action to choose from) next
 
-- How to determine if a goal staate is reached OR how decide if a satisfactory state has been reached
+- How to determine if a goal state is reached OR how decide if a satisfactory state has been reached

@@ -1,4 +1,4 @@
-#Feature Scaling
+# Feature Scaling
 
 Lets say you have a dataset full of salaries:
 
@@ -19,7 +19,7 @@ Now you will notice that there are two Salary values that are potentially danger
 
 ***
 
-###Feature Scaling In Python
+### Feature Scaling In Python
 
 ```python
 #Import libs
@@ -66,7 +66,7 @@ Now all of our features are scaled!
 
 ***
 
-###Feature Scaling In R
+### Feature Scaling In R
 
 ```r
 #Data Preprocessing

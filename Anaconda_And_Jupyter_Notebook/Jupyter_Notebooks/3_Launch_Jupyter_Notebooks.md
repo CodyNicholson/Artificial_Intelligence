@@ -1,4 +1,4 @@
-#Launching the notebook server
+# Launching the notebook server
 
 To start a notebook server, enter **jupyter notebook** in your terminal or console. This will start the server in the directory you ran the command in. That means any notebook files will be saved in that directory. Typically you'd want to start the server in the directory where your notebooks live. However, you can navigate through your file system to where the notebooks are.
 
@@ -32,7 +32,7 @@ conda tab in Jupyter
 
 ***
 
-###Shutting down Jupyter
+### Shutting down Jupyter
 
 You can shutdown individual notebooks by marking the checkbox next to the notebook on the server home and clicking "Shutdown." Make sure you've saved your work before you do this though! Any changes since the last time you saved will be lost. You'll also need to rerun the code the next time you run the notebook.
 

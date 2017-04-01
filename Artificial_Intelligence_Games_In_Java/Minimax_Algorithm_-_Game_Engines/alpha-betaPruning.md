@@ -1,4 +1,4 @@
-#Alpha-Beta Pruning
+# Alpha-Beta Pruning
 
 The problem with the minimax algorithm is that there are sometimes branches of the game tree we should not visit
 
@@ -12,7 +12,7 @@ Iterative deepening is another algorithm that helps the minimax algorithm and is
 
 -
 
-##How does Alph-Beta Pruning work?
+## How does Alpha-Beta Pruning work?
 
 We have to assign two extra variables to every node: alpha and beta
 
@@ -24,8 +24,8 @@ When **alpha is greater or equal to beta** we can prune that branch
 
 ***
 
-###In Summary
+### In Summary
 
 After we construct the minimax tree, we can guess whether we can traverse the branch/sub-tree or not
 
-By preventing the minimax algorithm from searching through unecessary branchs/sub-trees we can make the algorithm more efficient
+By preventing the minimax algorithm from searching through unnecessary branches/sub-trees we can make the algorithm more efficient

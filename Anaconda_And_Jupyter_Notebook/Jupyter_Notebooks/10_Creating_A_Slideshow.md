@@ -1,4 +1,4 @@
-#Creating a slideshow
+# Creating a slideshow
 
 Create slideshows from notebooks is one of my favorite features. You can see [an example of a slideshow here](http://nbviewer.jupyter.org/format/slides/github/jorisvandenbossche/2015-PyDataParis/blob/master/pandas_introduction.ipynb#/) introducing Pandas for working with data.
 
@@ -18,7 +18,7 @@ Choose slide type
 
 ***
 
-###Running the slideshow
+### Running the slideshow
 
 To create the slideshow from the notebook file, you'll need to use **nbconvert**:
 

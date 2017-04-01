@@ -1,10 +1,10 @@
-#Data Preprocessing Template
+# Data Preprocessing Template
 
 Below are Data Preprocessing templates for obth Python and R that we will use in our machine learning models
 
 These templates are reusable and useful because we will always need to import data and split our data into training and testing sets so we can teach the program how to label new input
 
-###In Python
+### In Python
 
 ```python
 #Import libs
@@ -24,7 +24,7 @@ inpen_train, inpen_test, depen_train, depen_test = train_test_split(inpen, depen
 
 ***
 
-###In R
+### In R
 
 ```r
 #Data Preprocessing
@@ -40,4 +40,3 @@ split = sample.split(dataset$Purchased, SplitRatio = 0.8)
 training_set = subset(dataset, split == TRUE)
 test_set = subset(dataset, split == FALSE)
 ```
-

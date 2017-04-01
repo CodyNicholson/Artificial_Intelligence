@@ -1,4 +1,4 @@
-#What Is A Support Vector Machine
+# What Is A Support Vector Machine
 
 A **Support Vector Machine**, or SVM, is an algorithm that is used to draw a line on a scatterplot that maximizes the distance to the nearest point of either class
 

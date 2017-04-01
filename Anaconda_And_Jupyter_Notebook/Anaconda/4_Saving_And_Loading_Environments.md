@@ -1,4 +1,4 @@
-#Saving and loading environments
+# Saving and loading environments
 
 A really useful feature is sharing environments so others can install all the packages used in your code, with the correct versions. You can save the packages to a YAML file with **conda env export > environment.yaml**. The first part **conda env export** writes out all the packages in the environment, including the Python version.
 
@@ -6,10 +6,10 @@ The name of the environment and all the dependencies (along with versions) are l
 
 To create an environment from an environment file use **conda env create -f environment.yaml**. This will create a new environment with the same name listed in **environment.yaml**.
 
-###Listing environments
+### Listing environments
 
 If you forget what your environments are named (happens to me sometimes), use **conda env list** to list out all the environments you've created. You should see a list of environments, there will be an asterisk next to the environment you're currently in. The default environment, the environment used when you aren't in one, is called **root**.
 
-###Removing environments
+### Removing environments
 
 If there are environments you don't use anymore, **conda env remove -n env_name** will remove the specified environment (here, named env_name).

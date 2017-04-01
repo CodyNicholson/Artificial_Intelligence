@@ -1,4 +1,4 @@
-#Introduction To Search
+# Introduction To Search
 
 **Search** is one of the most powerful approaches to problem solving in AI
 
@@ -10,19 +10,19 @@ Search is a universal problem solving mechanism that:
 
 Problem Space Hypothesis (Allen Newwll, SOAR: An Architecture for General Intelligence)
 
-- All goal-oriented symbolic activites occur in a problem space
+- All goal-oriented symbolic activities occur in a problem space
 
-- Search in a problem space is clamed to be a completely general model of intelligence
+- Search in a problem space is claimed to be a completely general model of intelligence
 
 ***
 
-###Problem-Solving Agents
+### Problem-Solving Agents
 
 ```
 function SimpleProblemSolvingAgent(percept)
 
 inputs: p, a percept
-stati: s, and action sequence, initally empty state,
+stati: s, and action sequence, initially empty state,
     a descriptionof current world state g,
     a goal that is initially null
 

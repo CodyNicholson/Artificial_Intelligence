@@ -1,4 +1,4 @@
-#Managing Packages
+# Managing Packages
 
 Once you have Anaconda installed, managing packages is fairly straightforward. To install a package, type **conda install package_name** in your terminal. For example, to install numpy, type **conda install numpy**.
 

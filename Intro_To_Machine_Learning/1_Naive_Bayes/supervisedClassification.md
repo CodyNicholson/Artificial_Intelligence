@@ -1,4 +1,4 @@
-#Supervised Classification
+# Supervised Classification
 
 **Supervised** means that you are given a lot of examples
 
@@ -10,7 +10,7 @@ Gradually the car begins to be able to mimic our behavior and drive like us
 
 ***
 
-###In which of the following cases should we use Supervised Classification?
+### In which of the following cases should we use Supervised Classification?
 
 1. From an album of tagged photos, recognize someone in a picture
 

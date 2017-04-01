@@ -1,4 +1,4 @@
-#Support Vector Machines (SVM)
+# Support Vector Machines (SVM)
 
 SVM's work really well in complicated domains where there is a clear margin of separation
 

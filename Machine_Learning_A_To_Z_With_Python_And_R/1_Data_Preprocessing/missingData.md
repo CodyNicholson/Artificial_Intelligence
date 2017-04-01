@@ -1,4 +1,4 @@
-#Missing Data
+# Missing Data
 
 | Country | Age | Salary | Purchased |
 |:------- | ---:| ------:| ---------:|
@@ -19,7 +19,7 @@ To solve this problem we can populate our missing data spots with the mean of th
 
 ***
 
-###In Python
+### In Python
 
 ```python
 #Import libs
@@ -43,7 +43,7 @@ As you can see in the comments, we grab the null values that are labeled "NaN" a
 
 ***
 
-###In R
+### In R
 
 ```r
 #Importing the dataset
@@ -55,7 +55,7 @@ dataset$Age = ifelse(is.na(dataset$Age), ave(dataset$Age, FUN = function(x) mean
 dataset$Salary = ifelse(is.na(dataset$Salary), ave(dataset$Salary, FUN = function(x) mean(x, na.rm = TRUE)), dataset$Salary)
 ```
 
-In R what we are doing is creating an if else statement by calling the built-in ifelse function with the conidtion that the input data is null: is.na(dataset$columnName)
+In R what we are doing is creating an if else statement by calling the built-in ifelse function with the condition that the input data is null: is.na(dataset$columnName)
 
 If the data at a location is null then we calculate the average of the other data in the same column and set the null spots equal to that average
 

@@ -1,6 +1,6 @@
-#Data Impurity & Entropy
+# Data Impurity & Entropy
 
-###Entropy
+### Entropy
 
 Controls how a Decision Tree decides where to split the data
 
@@ -18,7 +18,7 @@ If all data in your dataset is from the same class then Entropy = 0
 
 If your dataset is eavenly split between classes then Entropy = 1.0
 
-####The formula for Entropy
+#### The formula for Entropy
 
 Entropy = Summation i((Pi) log2(Pi))
 
@@ -28,7 +28,7 @@ Example of a calculation:
 
 ***
 
-#Information Gain
+# Information Gain
 
 **Information Gain** is equal to the (entropy of the parent) - the (weighted average of the entropy of the children)
 
@@ -36,6 +36,6 @@ The Decision Tree Algorithm will maximize information gain
 
 ***
 
-###Tuning Criterion Parameter
+### Tuning Criterion Parameter
 
 The **Tuning Criterion Parameter** can be passed to the DecisionTreeConstructor to meaure the quality of the split for us

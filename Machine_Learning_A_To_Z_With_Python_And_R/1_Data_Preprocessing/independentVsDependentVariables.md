@@ -1,4 +1,4 @@
-#Independent Vs Dependent Variables
+# Independent Vs Dependent Variables
 
 Take this dataset for example:
 

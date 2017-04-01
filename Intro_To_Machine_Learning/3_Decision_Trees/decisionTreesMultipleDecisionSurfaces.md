@@ -1,4 +1,4 @@
-#Decision Trees - Multiple Decision Surfaces
+# Decision Trees - Multiple Decision Surfaces
 
 **Decision Trees** is another supervised learning algorithm that uses a trick to let you do non-linear decision making with simple linear decision surfaces
 

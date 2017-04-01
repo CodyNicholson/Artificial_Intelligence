@@ -1,4 +1,4 @@
-#Code cells
+# Code cells
 
 Most of your work in notebooks will be done in code cells. This is where you write your code and it gets executed. In code cells you can write any code, assigning variables, defining functions and classes, importing packages, and more. Any code executed in one cell is available in all other cells.
 

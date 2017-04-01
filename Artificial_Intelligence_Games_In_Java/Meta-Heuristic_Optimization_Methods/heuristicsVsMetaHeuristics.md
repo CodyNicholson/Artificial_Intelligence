@@ -1,6 +1,6 @@
-#Heuristics Vs. Meta-Heuristics
+# Heuristics Vs. Meta-Heuristics
 
-###Heuristics
+### Heuristics
 
 Heuristics can do better than Brute-Force and Hill-Climbing Algorithms
 
@@ -24,11 +24,11 @@ We are going to use the Heuristic Alpha-Beta Pruning Algorithm to solve problems
 
 ***
 
-###Meta-Heuristics
+### Meta-Heuristics
 
 Like regular Heuristics, we want to get a good guess of the solution and we want it fast
 
-The difference between Heuristic Algorithms and Meta-Heuristic Algorithms is that **Meta-Heuristic Algorithms are problem independant**
+The difference between Heuristic Algorithms and Meta-Heuristic Algorithms is that **Meta-Heuristic Algorithms are problem independent**
 
 In other words, our algorithm knows nothing about the problem that it wants to solve, its kind of a black box
 
@@ -36,12 +36,12 @@ For example: genetic algorithms, simulated annealing, or particle swarm optimiza
 
 ***
 
-###The Difference
+### The Difference
 
-#####Heuristics
+##### Heuristics
 
 Not that generic: we use some underlying feature of the given problem like in Chess of Tic-Tac-Toe we can build a tree-like structure for this problem
 
-#####Meta-Heuristic
+##### Meta-Heuristic
 
 Generic: we do NOT use some underlying feature of the given problem like in genetic algorithms and simulated annealing, we cannot make a tree-like structure for this problem

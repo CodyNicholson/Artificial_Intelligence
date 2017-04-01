@@ -1,8 +1,8 @@
-#Breadth First Search (BFS)
+# Breadth First Search (BFS)
 
 BFS is good when we have a graph and we want to visit every *node* exactly once
 
-We visit the neighbours, then the neighbor's neighbors, and so on
+We visit the neighbors, then the neighbor's neighbors, and so on
 
 BFS visits every vertex on a **row by row** basis
 
@@ -22,7 +22,7 @@ Dijkstra's Algorithm does a BFS if all the edge weights are equal to 1
 
 ***
 
-##BFS Sudo-code
+## BFS Sudo-code
 
 ```
 bfs(vertex)
@@ -42,11 +42,11 @@ bfs(vertex)
 
 ***
 
-###Applications for BFS
+### Applications for BFS
 
 In AI/ML it can be used by robots to discover the surrounding area more easily
 
-It is also impotant in **maximum flow**: Edmonds-Karp algorithm uses BFS for finding augmenting paths
+It is also important in **maximum flow**: Edmonds-Karp algorithm uses BFS for finding augmenting paths
 
 It is used in Cheyen's algorithm for garbage collection to maintain active references on the heap memory (Detects all the references on the heap)
 

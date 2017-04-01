@@ -1,6 +1,6 @@
-#How Do We Recognize AI?
+# How Do We Recognize AI?
 
-###The Turing Test
+### The Turing Test
 
 This was a test proposed by Alan Turing in 1950 to partially answer the question: Can machines think?
 

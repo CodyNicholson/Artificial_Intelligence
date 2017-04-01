@@ -1,4 +1,4 @@
-#Tabu Search
+# Tabu Search
 
 **Tabu Search** is a Meta-Heuristic Search method
 
@@ -8,7 +8,7 @@ Local search methods have a tendency to become stuck in suboptimal regions (like
 
 In Tabu search worsening moves can be accepted if no improving move is available (Like when you are stuck in a local min/max)
 
-Also, prohibitions (tabu) are introduced to dicourage the search from coming back to previously-visited solutions
+Also, prohibitions (tabu) are introduced to discourage the search from coming back to previously-visited solutions
 
 -
 
@@ -16,7 +16,7 @@ In Tabu Search we have to use a data structure to store the prohibited points, a
 
 ***
 
-###Tabu Tenure
+### Tabu Tenure
 
 When a move is made tabu it is added to the so called tabu list with a certain value: this value is the "tabu tenure"
 
@@ -26,9 +26,9 @@ When the tabu tenure of a certain move is 0, then the certain move can be accept
 
 -
 
-###Aspiration Criteria
+### Aspiration Criteria
 
-Aspiratin criteria allows a tabu move to be selected based on certain constraints
+Aspiration criteria allows a tabu move to be selected based on certain constraints
 
 For example, the given move allows a new global best solution
 

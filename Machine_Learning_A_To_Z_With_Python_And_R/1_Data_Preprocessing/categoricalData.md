@@ -1,4 +1,4 @@
-#Categorical Data
+# Categorical Data
 
 **Categorical Date** is data that can be put into categories like a country, gender, yes/no, true/false, languages spoken, etc
 
@@ -6,7 +6,7 @@ When we set up a machine learning algorithm we want to be able to do mathematica
 
 ***
 
-###Encoding Categorical Data In Python
+### Encoding Categorical Data In Python
 
 ```python
 #Import libs
@@ -43,7 +43,7 @@ Since the Purchased column in our table only has two options (Yes/No) we can use
 
 ***
 
-###Encoding Categorical Data In R
+### Encoding Categorical Data In R
 
 ```r
 #Data Preprocessing

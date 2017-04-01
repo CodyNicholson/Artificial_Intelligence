@@ -1,4 +1,4 @@
-#Bias-Variance Dilemma
+# Bias-Variance Dilemma
 
 A **high-biased** machine learning algorithm is one that practically ignores the data, it has almost no capacity to learn anything
 

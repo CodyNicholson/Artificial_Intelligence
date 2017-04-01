@@ -1,4 +1,4 @@
-#Python Object Oriented Programming Notes
+# Python Object Oriented Programming Notes
 
 A class is the model of something we want to build. For example, if we make a house construction plan that gathers the instructions on how to build a house, then this construction plan is the class.
 

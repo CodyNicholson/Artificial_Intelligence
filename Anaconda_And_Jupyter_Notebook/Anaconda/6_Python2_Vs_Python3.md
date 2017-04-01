@@ -1,4 +1,4 @@
-#Why Should Use Python 3 Over Python 2
+# Why Should Use Python 3 Over Python 2
 
 - Jupyter is switching to Python 3 only
 - Python 2.7 is being retired
@@ -6,7 +6,7 @@
 
 At this point, there are enough new features in Python 3 that it doesn't make much sense to stick with Python 2 unless you're working with old code. All new Python code should be written for version 3.
 
-###The main breakage between Python 2 and 3
+### The main breakage between Python 2 and 3
 
 For the most part, Python 2 code will work with Python 3. Of course, most new features introduced with Python 3 versions won't be backwards compatible. The place where your Python 2 code will fail most often is the print statement.
 
